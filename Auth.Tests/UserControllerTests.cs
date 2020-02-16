@@ -1,5 +1,5 @@
-﻿using Trip.Api;
-using Trip.Api.Models;
+﻿using Auth.Api;
+using Auth.Api.Models;
 using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
@@ -72,7 +72,7 @@ namespace Auth.Api.Tests
         {
             // Arrange
             User userInfo = null;
-            string json = @"{'FirstName': 'Test', 'LastName': 'user','UserName': 'Test','Password': 'Test','Email': 'Test@tms.com', 'Role': 'Admin'}";
+            string json = @"{'FirstName': 'Test', 'LastName': 'user','UserName': 'Test','Password': 'Test','Email': 'Test@vms.com', 'Role': 'Admin'}";
             var httpContent = new StringContent(json, Encoding.UTF8, "application/json");
             var request = "/api/v1/users/createuser";
 

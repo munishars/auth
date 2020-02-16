@@ -1,6 +1,6 @@
 ﻿#region snippet_UserServiceClass
-using Trip.Api.Infrastructure.Helpers;
-using Trip.Api.Models;
+using Auth.Api.Infrastructure.Helpers;
+using Auth.Api.Models;
 using Microsoft.Extensions.Options;
 using Microsoft.IdentityModel.Tokens;
 using MongoDB.Driver;
@@ -11,7 +11,7 @@ using System.Linq;
 using System.Security.Claims;
 using System.Text;
 
-namespace Trip.Api.Services
+namespace Auth.Api.Services
 {
     public class UserService
     {

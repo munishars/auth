@@ -4,7 +4,7 @@ using MongoDB.Bson.Serialization.Attributes;
 using Newtonsoft.Json;
 #endregion
 
-namespace Trip.Api.Models
+namespace Auth.Api.Models
 {
     public class User
     {

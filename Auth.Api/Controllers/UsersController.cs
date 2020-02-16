@@ -1,10 +1,10 @@
-﻿using Trip.Api.Models;
-using Trip.Api.Services;
+﻿using Auth.Api.Models;
+using Auth.Api.Services;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using System.Collections.Generic;
 
-namespace Trip.Api.Controllers
+namespace Auth.Api.Controllers
 {
     [Route("api/v1/users")]
     [ApiController]

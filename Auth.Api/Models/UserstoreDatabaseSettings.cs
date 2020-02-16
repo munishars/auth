@@ -1,4 +1,4 @@
-﻿namespace Trip.Api.Models
+﻿namespace Auth.Api.Models
 {
     public class UserstoreDatabaseSettings : IUserstoreDatabaseSettings
     {

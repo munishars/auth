@@ -1,9 +1,9 @@
 #region snippet_UsingUsersApiModels
-using Trip.Api.Infrastructure.Helpers;
-using Trip.Api.Models;
+using Auth.Api.Infrastructure.Helpers;
+using Auth.Api.Models;
 #endregion
 #region using
-using Trip.Api.Services;
+using Auth.Api.Services;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Mvc;
@@ -20,7 +20,7 @@ using Polly.Extensions.Http;
 using Auth.Api.Infrastructure.Handlers;
 #endregion
 
-namespace Trip.Api
+namespace Auth.Api
 {
     public class Startup
     {
