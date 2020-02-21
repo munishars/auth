@@ -28,7 +28,7 @@
       "commandName": "Docker",
       "launchBrowser": true,
       "launchUrl": "{Scheme}://{ServiceHost}:{ServicePort}",
-      "httpPort": 10000
+      "httpPort": 5001
     }
   }
 }
